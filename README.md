@@ -13,4 +13,4 @@ CEFWebkitBrowser（https://github.com/CodeBees/CEFWebkitBrowser） 修改
 2. 更顺滑的界面
 
 ##那张图片是谁
-何小绫，我们网站的看板娘，Gingya画的。
+[何小绫](https://www.yzwiki.com/item/何小绫 "何小绫")，我们网站的看板娘，Gingya画的。
