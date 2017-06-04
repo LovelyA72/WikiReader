@@ -1,0 +1,76 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  StdAfx.cpp
+j:\vs2010cef\wikireader\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: 'DuiLib::CEventSource::m_aDelegates': class 'DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>' needs to have dll-interface to be used by clients of class 'DuiLib::CEventSource'
+j:\vs2010cef\wikireader\wikireader\duilib\Core/UIManager.h(49): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+j:\vs2010cef\wikireader\wikireader\duilib\control\UIAnimation.h(77): warning C4251: 'DuiLib::CUIAnimation::m_arAnimations': class 'DuiLib::TStdPtrArray<DuiLib::CAnimationData *>' needs to have dll-interface to be used by clients of class 'DuiLib::CUIAnimation'
+j:\vs2010cef\wikireader\wikireader\duilib\Control/UIFlash.h(12): warning C4192: automatically excluding 'IServiceProvider' while importing type library '..\Utils/Flash11.tlb'
+j:\vs2010cef\wikireader\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: 'DuiLib::CMediaPlayerUI::wmp_': class 'ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>' needs to have dll-interface to be used by clients of class 'DuiLib::CMediaPlayerUI'
+  UIAnimation.cpp
+  UIColorPalette.cpp
+  UIFadeButton.cpp
+  UIHyperlink.cpp
+  UIIpAddress.cpp
+Control\UIIpAddress.cpp(281): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UIMediaPlayer.cpp
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+Core\UIControl.cpp(705): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UIDlgBuilder.cpp
+  UIManager.cpp
+  UIMarkup.cpp
+Core\UIMarkup.cpp(382): warning C4244: 'initializing': conversion from 'DWORD64' to 'DWORD', possible loss of data
+  UIRender.cpp
+Core\UIRender.cpp(290): warning C4244: '=': conversion from 'DWORD64' to 'DWORD', possible loss of data
+Core\UIRender.cpp(1248): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+Layout\UIHorizontalLayout.cpp(275): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UITabLayout.cpp
+  Generating Code...
+  Compiling...
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+Layout\UIVerticalLayout.cpp(264): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UIActiveX.cpp
+  UIButton.cpp
+Control\UIButton.cpp(118): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UICheckBox.cpp
+  UICombo.cpp
+  UIComboBox.cpp
+  UIDateTime.cpp
+Control\UIDateTime.cpp(273): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UIEdit.cpp
+Control\UIEdit.cpp(278): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UIFlash.cpp
+  UILabel.cpp
+  UIList.cpp
+Control\UIList.cpp(1456): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+Control\UIList.cpp(2005): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  ------>待检查释放时候引起奔溃的问题
+  UIScrollBar.cpp
+  UISlider.cpp
+Control\UISlider.cpp(224): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UIText.cpp
+Control\UIText.cpp(52): warning C4302: 'type cast': truncation from 'LPWSTR' to 'WORD'
+  UITreeView.cpp
+  UIWebBrowser.cpp
+  Generating Code...
+  Compiling...
+  XUnZip.cpp
+Utils\Zip\XUnZip.cpp(86): warning C4244: 'argument': conversion from 'DWORD64' to 'unsigned int', possible loss of data
+  Generating Code...
+  stb_image.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(J:\VS2010CEF\WikiReader\WikiReader\Build\Release_u\DuiLib.dll) does not match the Linker's OutputFile property value (J:\VS2010CEF\WikiReader\WikiReader\bin\DuiLib_u.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_u). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ../Lib/DuiLib_u.lib and object ../Lib/DuiLib_u.exp
+  DuiLib.vcxproj -> J:\VS2010CEF\WikiReader\WikiReader\Build\Release_u\DuiLib.dll
+  DuiLib.vcxproj -> J:\VS2010CEF\WikiReader\WikiReader\Build\Release_u\DuiLib.pdb (Full PDB)

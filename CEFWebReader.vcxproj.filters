@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BrowserHandlers.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CEFV8HandlerEx.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CEFWebkit.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CEFWebReader.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="clientapp.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDumper.cpp">
+      <Filter>DumBugHook</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BrowserHandlers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CEFV8HandlerEx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CEFWebkit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="CEFWebReader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="clientapp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDumper.h">
+      <Filter>DumBugHook</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{21418a58-9e12-4187-aeda-67e5eb36b486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{21bd76d9-ecfb-4606-82c1-64d7045cca01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DumBugHook">
+      <UniqueIdentifier>{54c6953e-85c4-4265-93bb-538d6fb34fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{898d2684-3095-4c1a-9d09-d095c8d18c6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>res</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="vvicon.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CEFWebReader.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

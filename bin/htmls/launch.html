@@ -1,0 +1,83 @@
+﻿<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+<style>
+ol li{list-style-position:inside;}
+.header{ text-align:center;}
+.centerlayout{ text-align:center; margin:0 auto;} 
+.indent{text-indent:2em;}
+
+
+
+
+</style>
+
+<script src='jquery-3.2.1.min.js' type='text/javascript'></script>
+
+<script type="text/javascript">
+
+
+		function Search_Wiki_ajaxjsonp(search_str)
+		{ 
+			
+			$.ajax({
+					type: 'GET',            
+					url: 'https://www.yzwiki.com/api.php?',   
+					//url: 'https://en.wikipedia.org/w/api.php?',  
+					dataType: 'jsonp',
+					data : { action: 'opensearch', search :search_str, format : 'json' },
+					success: function (result) {
+						document.getElementById('SH_info').innerHTML ='Search:'+ '“'+result[0]+'” Result:';
+						var result_size=result[1].length;
+						var result_html="Total result count: "+result_size;
+						//alert(result_html);
+						document.getElementById('result_info').innerHTML ="<div>"+result_html+"</div>";
+						if(result_size>0)
+						{
+							result_html="";
+							result[1].forEach(function(value, index, array) {
+								result_html+="<h3><li><a"+" href="+ result[3][index]+">"+value+"</a></li></h3>";
+								result_html+="<p class='indent'>"+result[2][index]+"</p>";
+								//alert(result[2][index]);
+							});
+							//alert(result_html);
+							document.getElementById('result_list').innerHTML ="<ol>"+result_html+ "</ol>";
+						}
+						else
+						{
+							document.getElementById('result_list').innerHTML ="";
+						}
+					},
+					error: function (xhr, errorText) {
+						alert('Error ' + xhr.responseText);
+						document.getElementById('SH_info').innerHTML ='Please Input search Item.';
+					}
+				});
+				
+		}
+			
+
+</script>  
+
+</head>
+  <body>
+	<div class="header">
+		<h1>
+			<div id='SH_info'>
+				Ready to search.
+			</div>
+		</h1>
+	</div>
+	
+	<div id='result_info' class='centerlayout'></div>
+	<div id='result_list' class='box'></div>
+    
+	
+  </body>
+</html>
+
+
+
+
+
+
