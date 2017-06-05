@@ -1,0 +1,55 @@
+﻿<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+	function Change_Func()
+	{
+		var str="222";
+		document.getElementById('container').innerHTML = str;
+		
+	}
+</script>
+
+
+<script >
+	$.ajax({
+  url: "http://192.168.1.59:8888/app-tpl-webapp/tpl/design.html",
+  async:false,
+  type:'post',
+  dataType:'html',
+  success:function(data) {
+      console.log("-------------------------------------------------");
+      var htmlTextText = $('div').html(data);
+      console.log($('div').html(data).eq(1).find("#workspace-body"));
+      $('div').html(data).eq(1).find("link,script,style").each(function(index,domEle){
+       //$("head").append($(domEle));
+       console.log(domEle);
+      });
+      console.log("-------------------------------------------------");
+   //自动为布局文件的html中加上id
+     }
+  });
+</script>
+
+
+</head>
+  <body>
+    <h2>Search results for categories starting with  '\u4f55\u5c0f\u7eeb'</h2>
+    <ol>
+		<div id='container'>
+		</div>
+    </ol>
+	
+	
+	
+	
+  </body>
+</html>
+
+
+
+
+
