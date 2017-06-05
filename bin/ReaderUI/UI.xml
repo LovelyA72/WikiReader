@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Window size="800,600" mininfo="600,400" caption="0,0,0,32" sizebox="4,4,4,4"> <!-- 窗口的初始尺寸(宽800，高600)、窗口的最小尺寸(宽600，高400)、标题栏拖拽区域(高32)、可拖拽边框大小(sizebox拖拽边框大小) -->
+<Window size="1280,720" mininfo="600,400" caption="0,0,0,32" sizebox="4,4,4,4"> <!-- 窗口的初始尺寸(宽800，高600)、窗口的最小尺寸(宽600，高400)、标题栏拖拽区域(高32)、可拖拽边框大小(sizebox拖拽边框大小) -->
     <VerticalLayout bkcolor="#FFF0F0F0" bkcolor2="#FFAAAAA0" > <!-- 整个窗口的背景色 -->
         <!-- 标题栏区 -->
         <HorizontalLayout height="28" bkcolor="#FFE6E6DC" bkcolor2="#FFAAAAA0"> <!-- 标题栏背景色 bkcolor、bkcolor2、bkcolor3分别是渐变色的三个值-->         
@@ -8,7 +8,7 @@
             </VerticalLayout>     
 			
 			<VerticalLayout inset="4,5,0,0">
-                <Label text="V家社团百科 WikiReader" width="200" height="18" textcolor="#0000000" disabledtextcolor="#FFA7A6AA" align="left" valign="center" />
+                <Label text="YzACG百科站 WikiReader" width="200" height="18" textcolor="#0000000" disabledtextcolor="#FFA7A6AA" align="left" valign="center" />
             </VerticalLayout>
 			
             <VerticalLayout width="93"> <!-- 右边三个控件所占的宽度-->
