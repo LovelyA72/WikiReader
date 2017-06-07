@@ -1,6 +1,7 @@
 ﻿<html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <head>
+<link rel="stylesheet" href="css/load.css">
 <style>
 ol li{list-style-position:inside;}
 .header{ text-align:center;}
@@ -19,6 +20,7 @@ ol li{list-style-position:inside;}
 
 		function Search_Wiki_ajaxjsonp(search_str)
 		{ 
+		document.getElementById('SH_info').innerHTML ='搜索中请稍候...';
 			
 			$.ajax({
 					type: 'GET',            
@@ -29,7 +31,7 @@ ol li{list-style-position:inside;}
 					success: function (result) {
 						document.getElementById('SH_info').innerHTML ='Search:'+ '“'+result[0]+'” Result:';
 						var result_size=result[1].length;
-						var result_html="Total result count: "+result_size;
+						var result_html="搜到的页面数量: "+result_size;
 						//alert(result_html);
 						document.getElementById('result_info').innerHTML ="<div>"+result_html+"</div>";
 						if(result_size>0)
@@ -65,10 +67,10 @@ ol li{list-style-position:inside;}
 		<h1>
 			<div id='SH_info'>
 				欢迎回来！ Ready to search.
+				<img src="howto.png"></img>
 			</div>
 		</h1>
 	</div>
-	
 	<div id='result_info' class='centerlayout'></div>
 	<div id='result_list' class='box'></div>
     
