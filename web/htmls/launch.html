@@ -29,7 +29,7 @@ ol li{list-style-position:inside;}
 					dataType: 'jsonp',
 					data : { action: 'opensearch', search :search_str, format : 'json' },
 					success: function (result) {
-						document.getElementById('SH_info').innerHTML ='Search:'+ '“'+result[0]+'” Result:';
+						document.getElementById('SH_info').innerHTML ='这是搜索'+ '“'+result[0]+'”的结果~';
 						var result_size=result[1].length;
 						var result_html="搜到的页面数量: "+result_size;
 						//alert(result_html);
