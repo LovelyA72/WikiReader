@@ -1,57 +1,9 @@
-﻿生成启动时间为 2017/6/4 21:18:24。
+﻿生成启动时间为 2017/6/7 15:26:50。
      1>项目“H:\Github\WikiReader\CEFWebReader.vcxproj”在节点 2 上(Build 个目标)。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-     1>ClCompile:
-         D:\VisualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"H:\Github\WikiReader\Build\CEFWebReader\CEFWebReader.pch" /Fo"H:\Github\WikiReader\Build\CEFWebReader\\" /Fd"H:\Github\WikiReader\Build\CEFWebReader\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIFlash.h(12): warning C4192: 导入类型库“IServiceProvider”时自动排除“..\Utils/Flash11.tlb”
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-         D:\VisualStudio2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"H:\Github\WikiReader\Build\CEFWebReader\\" /Fd"H:\Github\WikiReader\Build\CEFWebReader\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BrowserHandlers.cc CEFV8HandlerEx.cc CEFWebkit.cc CEFWebReader.cc clientapp.cc Entry.cc MiniDumper.cpp
-         BrowserHandlers.cc
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-         CEFV8HandlerEx.cc
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-         CEFWebkit.cc
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-         CEFWebReader.cc
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-         clientapp.cc
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-         Entry.cc
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-         MiniDumper.cpp
-     1>h:\github\wikireader\duilib\Utils/UIDelegate.h(217): warning C4251: “DuiLib::CEventSource::m_aDelegates”: class“DuiLib::TStdPtrArray<DuiLib::CDelegateBase *>”需要有 dll 接口由 class“DuiLib::CEventSource”的客户端使用
-     1>h:\github\wikireader\duilib\Core/UIManager.h(49): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
-     1>h:\github\wikireader\duilib\control\UIAnimation.h(77): warning C4251: “DuiLib::CUIAnimation::m_arAnimations”: class“DuiLib::TStdPtrArray<DuiLib::CAnimationData *>”需要有 dll 接口由 class“DuiLib::CUIAnimation”的客户端使用
-     1>h:\github\wikireader\duilib\Control/UIMediaPlayer.h(38): warning C4251: “DuiLib::CMediaPlayerUI::wmp_”: class“ATL::CComQIPtr<WMPLib::IWMPPlayer4,_GUID_6c497d62_8919_413c_82db_e935fb3ec584>”需要有 dll 接口由 class“DuiLib::CMediaPlayerUI”的客户端使用
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
-     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
-       ResourceCompile:
-         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"H:\Github\WikiReader\Build\CEFWebReader\CEFWebReader.res" CEFWebReader.rc 
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(H:\Github\WikiReader\Build\CEFWebReader\CEFWebReader.exe) does not match the Linker's OutputFile property value (H:\Github\WikiReader\bin\CEFWebReader.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-       Link:
+     1>Link:
          D:\VisualStudio2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Github\WikiReader\bin\CEFWebReader.exe" /INCREMENTAL:NO /NOLOGO libcef.lib libcef_dll_wrapper.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\Github\WikiReader\Build\CEFWebReader\CEFWebReader.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Github\WikiReader\Build\CEFWebReader\CEFWebReader.lib" /MACHINE:X86 /SAFESEH H:\Github\WikiReader\Build\CEFWebReader\CEFWebReader.res
          H:\Github\WikiReader\Build\CEFWebReader\BrowserHandlers.obj
          H:\Github\WikiReader\Build\CEFWebReader\CEFV8HandlerEx.obj
@@ -167,4 +119,4 @@
 
 已成功生成。
 
-已用时间 00:00:13.59
+已用时间 00:00:07.27
