@@ -27,7 +27,7 @@ ol li{list-style-position:inside;}
 					url: 'https://www.yzwiki.com/api.php?',   
 					//url: 'https://en.wikipedia.org/w/api.php?',  
 					dataType: 'jsonp',
-					data : { action: 'opensearch', search :search_str,limit:'100', format : 'json' },
+					data : { action: 'opensearch', search :search_str,limit:'100', format : 'json', profile : 'fast-fuzzy' },
 					success: function (result) {
 						document.getElementById('SH_info').innerHTML ='这是搜索'+ '“'+result[0]+'”的结果~';
 						var result_size=result[1].length;
